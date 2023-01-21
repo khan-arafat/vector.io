@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Some Interesting facts about our Solar System. The Sun and 8 Planets.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Solar System Facts</title>
+    </head>
+    <body>
+        <div id="welcome">
+            <div class="first-page">
+                <div class="links">
+                    <li><a id="link1" href="#hubble">Hubble</a></li>
+                    <li><a id="link2" href="#jwst">JWST</a></li>
+                    <li><a id="link3" href="#mangalyan">MOM</a></li>
+                </div>
+                <div class="search-bar">
+                    <input id="text" type="text" placeholder="Search Planets"><button id="search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+                <p id="random"></p>
+                <div class="title-box">
+                    <div class="about">
+                        <h1 style="color: azure;">About</h1>
+                        <fieldset>
+                            <legend style="color: bisque;">Our Solar System</legend>
+                            <div class="inner-frame">
+                                <h3 style="color: white">Why is it called the Solar System?</h3>
+                                <p style="color: white;">
+                                    There are many planetary systems like ours in the universe, with planets orbiting a host star. Our planetary system is called “the solar system” because we use the word “solar” to describe things related to our star, after the Latin word for Sun, "solis."
+                                </p>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="details">
+                        <div  id="result" class="card-container">
+                            <div class="card-heading">
+                                <h3 style="padding-left: 10px;" id="p-name"></h3>
+                            </div>
+                            <div class="card">
+                                <div class="details-pan">
+                                    <div class="detail-pan">
+                                        Days:<p id="p-days"></p>
+                                    </div>
+                                    <div class="detail-pan">
+                                        Moons:<p id="sat"></p>
+                                    </div>
+                                    <div class="detail-pan">
+                                        Diameter:<p id="dia"></p>
+                                    </div>
+                                </div>
+                                <div class="image-card">
+                                    <img id="img" src="" width="60" height="60">
+                                </div>
+                            </div>
+                            <div class="facts" id="int"></div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="outline">
+                    <p style="color: beige;"">Our planetary system is located in an outer spiral arm of the Milky Way galaxy.</p>
+                    <p style="color: beige;">Our solar system consists of our star, the Sun, and everything bound to it by gravity – the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune; dwarf planets such as Pluto; dozens of moons; and millions of asteroids, comets, and meteoroids. Beyond our own solar system, we have discovered thousands of planetary systems orbiting other stars in the Milky Way.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="separator">
+            <h2>THE ORIGIN</h2>
+        </div>
+        <section class="origin">
+            <h1 style="color: azure;">Formation of the Solar System</h1>
+            <p class="form-details">The solar system hasn't always been arranged the way it is today. There have been changes over billions of years, and changes will continue for billions more years. During the earliest stages of development of the solar system, the planets were located very close together. Then, due to gravitational pull and collisions in space, they began to spread out and create their own orbits around the sun.</p>
+            <p class="form-details">Let's look at a few events that led to the current organization of the solar system.</p>
+            <h1 style="color: azure;">Late Heavy Bombardment</h1>
+            <textarea readonly>Many planetary scientists believe that the Late Heavy Bombardment, also called the lunar cataclysm, occurred around 4 billion years ago. Abbreviated as LHB, the Late Heavy Bombardment was a period of time when there were many asteroids colliding with the four inner planets. You might recall that the four inner planets - Mercury, Venus, Earth and Mars - are referred to as the terrestrial planets. Exactly what caused the LHB has and continues to be up for debate.
+One hypothesis is that there was a fifth inner planet, referred to as Planet V. It's believed that this planet became unstable and, as a result, left its orbit and entered the asteroid belt. This caused asteroids to enter Earth's orbit, and as a result, asteroids started colliding with other planets.
+Another hypothesis is that the LHB happened because Uranus and Neptune formed so much later than the other planets. Their late formation could have caused asteroids to begin moving and colliding with other planets. This hypothesis is not widely accepted and has pretty much been disproven. The most likely, and believed, cause of the LHB is that it occurred due to the migration of the outer larger planets. The slow movement of the larger planets in different directions caused the gravitational pull they have on each other to change. 
+With this change, the planets began to migrate faster, causing the outer solar system to become unstable. As it became unstable, the gravitational push and pull on each other began to affect debris in the asteroid belt, sending asteroids into the inner solar system to collide with the terrestrial planets.
+            </textarea>
+                <h1 style="color: azure;">Planetary Migration</h1>
+            <textarea readonly>As mentioned earlier, the planets were moving around as they formed. The inner planets didn't exhibit much migration and are pretty much in the same location they've been in since formation. The outer planets are a different story. They migrated quite a bit and affected each other's migration in the process. The most popular and widely accepted model for planetary migration has the planets forming and migrating with Jupiter and Saturn as the driving source for migration. Jupiter and Saturn formed in proximity to each other and began to have resonance, or a gravitational effect on each other. This resonance caused Jupiter to move closer to the sun and Saturn to move further away from the sun. During this same time, Uranus and Neptune formed close to Jupiter and Saturn. 
+As the resonance between Jupiter and Saturn increased, this pushed Uranus and Neptune further away from the sun.
+            </textarea>
+            <div class="separator">
+                <h2>EXPLORATIONS</h2>
+            </div>
+            <section class="mission">
+                <div id="hubble" class="mission-sub">
+                    <img src="https://th.bing.com/th/id/OIP.CQ9luddT-Ujc9mqgWR40xgHaH3?pid=ImgDet&rs=1" height="200" width="200">
+                    <h3>Hubble Space Telescope</h3>
+                    <p>Named in honor of the trailblazing astronomer Edwin Hubble, the Hubble Space Telescope is a large, space-based observatory, which has revolutionized astronomy since its launch and deployment by the space shuttle Discovery in 1990. 
+                        Far above rain clouds, light pollution, and atmospheric distortions, Hubble has a crystal-clear view of the universe. 
+                        Scientists have used Hubble to observe some of the most distant stars and galaxies yet seen, as well as the planets in our solar system.
+                        <br/>In its over 30 years of operation, Hubble has made observations that have captured humanity’s imaginations and deepened our knowledge of the cosmos. It will continue to do so for years to come.
+                    </p>
+                </div>
+                <div id="jwst" class="mission-sub">
+                    <img src="https://th.bing.com/th/id/R.7f57f94fc19b21f84384dca4da9f3035?rik=RszTO0nr8DjkKQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-VVW8DUj7sUE%2fVlOSelHGqHI%2fAAAAAAABEfw%2f_6525yV-T7A%2fs1600%2fjameswebbspace.jpg&ehk=xsSMQ4TBnfLUriJPlPRHchu78xJypGVVm1A%2ff52ekrE%3d&risl=&pid=ImgRaw&r=0" height="200" width="200">
+                    <h3>James Webb Space Telescope</h3>
+                    <p>The Webb telescope was formerly known as the "Next Generation Space Telescope" (NGST);
+                        it was renamed in September 2002 after a former NASA administrator, James Webb.
+                    <br/>The James Webb Space Telescope (often shortened to JWST) is a space telescope which conducts infrared astronomy. As the largest optical telescope in space, its high resolution and sensitivity allow it to view objects too old, distant, or faint for the Hubble Space Telescope.
+                    </p>
+                </div>
+                <div id="mangalyan" class="mission-sub">
+                    <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2019/09/isro-1537883362-1569335120.jpg" height="200" width="200">
+                    <h3>Mars Orbiter Mission</h3>
+                    <p>The Indian Space Research Organization (ISRO) launched its first spacecraft to Mars on November 5, 2013. On September 23, 2014, the Mangalyaan spacecraft successfully reached Mars orbit, making ISRO the fourth space agency in the world to do so. The other agencies include NASA, the Soviet Union, and the European Space Agency (ESA).
+                        <br/>ISRO extended the mission’s lifespan from 6 months to 2-3 years in April 2015 because there was a sufficient amount of fuel remaining in the spacecraft. By then, the MOM had made nearly 8000 orbits of Mars. The spacecraft is still in orbit today, and in 2021, Mangalyaan completed seven Earth years in Mars’ orbit. 
+                    </p>
+                </div>
+            </section>
+            <script src="_script.js"></script>
+    </body>
+</html>
