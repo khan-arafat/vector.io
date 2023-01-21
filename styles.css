@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.first-page {
+    background-image: url("http://4.bp.blogspot.com/-oqLrgf_q5qM/U68fguDIIUI/AAAAAAAACd4/Dci6GW2E53c/s1600/SOLAR-SYSTEM-scope.jpg");
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 5vh;
+    width: 100%;
+    position: fixed;
+
+}
+li {
+    list-style-type: none;
+}
+li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.search-bar {
+    width: fit-content;
+    position: relative;
+    top: 2rem;
+    left: 80%;
+}
+#search {
+    position: relative;
+    right: 15%;
+    background-color: white;
+    overflow: hidden;
+    border: none;
+}
+.title-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#random {
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+    width: 200px;
+    height: fit-content;
+    position: relative;
+    top: 4vh;
+    left: 80%;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+}
+h1 {
+    padding: 1rem 0rem 0rem 2rem;
+}
+fieldset {
+    width: 600px;
+    padding-left: 1rem;
+}
+.outline {
+    width: 600px;
+    padding-left: 1rem;
+}
+.separator {
+    text-align: center;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.6);
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.6);
+}
+.origin {
+    background-image: url("https://apod.nasa.gov/apod/image/1504/ngc3293_eso_8682.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.form-details {
+    border: 1px transparent;
+    width: 300px;
+    color: beige;
+    padding-left: 3rem;
+}
+textarea {
+    border: none;
+    height: 300px;
+    width: 400px;
+    word-wrap: break-word;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    overflow: hidden;
+    transition: 0.5s;
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 1rem;
+}
+textarea:hover {
+    border: none;
+    height: 400px;
+    width: 600px;
+    word-wrap: normal;
+}
+
+.mission {
+    background-image: url("http://cdn.spacetelescope.org/archives/images/screen/heic1406a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.mission-sub {
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 500px;
+    height: 500px;
+}
+.card-container {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    display: block;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 2rem;
+}
+.card {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    
+}
+.details-pan {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.detail-pan {
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5px;
+}
+.image-card {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 5px black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facts {
+    padding: 5px 0 0 10px;
+}
