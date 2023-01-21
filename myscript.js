@@ -4,7 +4,7 @@ const mercury= [
     "0",
     "4879.4 km",
     "Smallest planet in our solar System, and nearest to Sun.",
-    "https://cdn.icon-icons.com/icons2/1434/PNG/256/02-mercury_98599.png"
+    "mercury.png"
 ];
 const venus= [
     "Venus",
@@ -12,7 +12,7 @@ const venus= [
     "0",
     "12,103 km",
     "Hottest and Brightest Planet also called as Twin of Earth.It rotates east to west.",
-    "https://cdn.icon-icons.com/icons2/1434/PNG/256/03-venus_98590.png"
+    "venus.png"
 ];
 const earth= [
     "Earth",
@@ -20,7 +20,7 @@ const earth= [
     "0",
     "12,756 km",
     "Only Planet with life. Also called as blue Planet",
-    "https://cdn.icon-icons.com/icons2/32/PNG/256/globe_earth_planet_2767.png"
+    "earth.png"
 ]
 const mars= [
     "Mars",
@@ -28,7 +28,7 @@ const mars= [
     "2",
     "6792 km",
     "Also called as Red Planet. Only Planet with human landing missions",
-    "https://cdn.icon-icons.com/icons2/1434/PNG/256/06-mars_98594.png"
+    "mars.png"
 ];
 const jupiter= [
     "Jupiter",
@@ -36,7 +36,7 @@ const jupiter= [
     "79",
     "142,984 km",
     "Largest planet of Solar System. It has big red Spot on it's surface.",
-    "https://cdn.icon-icons.com/icons2/1434/PNG/256/07-jupiter_98593.png"
+    "jupiter.png"
 ];
 const saturn= [
     "Saturn",
@@ -44,7 +44,7 @@ const saturn= [
     "83*",
     "120,000 km",
     "It has a large ring of gaseous clouds around it.It's largest satellite is Titan.",
-    "https://cdn.icon-icons.com/icons2/1434/PNG/256/08-saturn_98601.png"
+    "saturn.png"
 ];
 const uranus= [
     "Uranus",
@@ -52,7 +52,7 @@ const uranus= [
     "27",
     "51,118",
     "Discovered by William Herschel. It was the first planet discovered by a Telescope.Like Venus it also rotates east to west.",
-    "https://cdn.icon-icons.com/icons2/1434/PNG/256/09-uranus_98592.png"
+    "uranus.png"
 ];
 const neptune= [
     "Neptune",
@@ -60,7 +60,7 @@ const neptune= [
     "14",
     "49,500 km",
     "Neptune was named after the Roman God Of Sea.It became the most distant planet from Sun after Pluto was declared as Dwarf Planet in 2006.",
-    "https://cdn.icon-icons.com/icons2/1434/PNG/256/10-neptune_98589.png"
+    "neptune.png"
 ];
 const planet= document.getElementById('p-name');
 const days= document.getElementById('p-days');
